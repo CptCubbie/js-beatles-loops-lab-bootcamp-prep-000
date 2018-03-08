@@ -21,15 +21,7 @@ function iLoveTheBeatles(n) {
   var i = 0;
   do {
     array.push("I love the Beatles!");
-  } while (i<5, i++);
+  } while (i<n.length, i++);
   return array;
 }
 
-function iLoveTheBeatles(n) {
-  var array = [];
-  var i = 0;
-  do {
-    array.push("I love the Beatles!");
-  } while (i<15, i++);
-  return array;
-}
