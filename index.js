@@ -24,3 +24,12 @@ function iLoveTheBeatles(n) {
   } while (i<5, i++);
   return array;
 }
+
+function iLoveTheBeatles(n) {
+  var array = [];
+  var i = 0;
+  do {
+    array.push("I love the Beatles!");
+  } while (i<15, i++);
+  return array;
+}
