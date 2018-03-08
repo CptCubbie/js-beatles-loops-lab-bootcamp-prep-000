@@ -24,4 +24,3 @@ function iLoveTheBeatles(n) {
   } while (i<n.length, i++);
   return array;
 }
-
